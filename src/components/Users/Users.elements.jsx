@@ -1,12 +1,12 @@
 import styled from 'styled-components';
+import { Container } from '../../globalStyles'
 
-
-export const UsersContainer = styled.div`  
+export const UsersContainer = styled(Container)`  
   padding: 2rem;
   height: auto;   
-  display: grid;
-  width: 100vw;  
-  justify-content: space-around;  
+  display: grid;  
+  width: auto;  
+  justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   justify-content: space-evenly;
   gap: 2rem;  
